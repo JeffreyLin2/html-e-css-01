@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    padding: 32px;
+}
+h2, h3, h4, h5, h6 { color: rgba(197, 21, 21, 0.747);}
+
+section {
+    border: 1px solid gray;
+    padding: 16px;
+}
+
+section.destaque {
+    background-color: rgb(167, 164, 164);
+    border-radius: 8px;
+}
+
+.destaque {color: greenyellow;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
