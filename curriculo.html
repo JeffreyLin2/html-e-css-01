@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML e CSS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-   
-
+    
 </head>
 
 <body>
@@ -92,32 +92,49 @@
             <p>Entre em contato através do meu e-mail, Linked In, Whatsapp ou se preferir, preencha o formulário a seguir</p>
             
             <form action="obrigado.html" method="GET">
-            <label for="nomeDaEmpresa">Nome da Empresa</label><br>
-            
-            <input type="text" id="nomeDaEmpresa" name="empresa"><br>
-            <label for="email">Email</label><br>
-            
-            <input type="email" id="email" name="enderecoEmail" ><br>
-            <label for="telefone">Telefone</label><br>
-           
-            <input type="tel" id="telefone" name="telfone-"><br>         
-            <label for="">Deixe uma mensagem</label><br>
-           
-            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-           
-            <button type="submit">Enviar</button><br>
-           
-            <button type="reset">Limpar</button><br>    
-        </form>    
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="endereço@exemplo.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Tipo de vaga</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Front</option>
+                    <option>End</option>
+                    <option>Full Stack</option>
+                    <option>Outros</option>
+                   </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Exemplo</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>Exemplo 1</option>
+                    <option>Exemplo 2</option>
+                    <option>Exemplo 3</option>
+                    <option>Exemplo 4</option>
+                    <option>Exemplo 5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Deixe uma mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit">Enviar</button> 
+                <button type="reset">Limpar</button>
+              </form>
         </section>
     </main>
     <hr>
     <p> Jeffrey Lin &copy; - 2020</p>
+    <footer>
+        <a href="#top">Ir para o topo</a>
+    </footer>
+    <footer>  <img src="./assets/image/saitamao.png" alt="ok" width="300" height="300"> </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <a href="#top">Ir para o topo</a>
 
-</footer>
-<footer>  <img src="./assets/image/saitamao.png" alt="ok" width="300" height="300"> </footer>
 
 </html>
