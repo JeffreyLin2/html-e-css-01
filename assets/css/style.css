@@ -1,66 +1,62 @@
 *{
-  margin: 10px;
-  padding: 0px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-  
-
-img {
-    border-radius: 50px;
-    transition:all 0.8s ease-in-out;
-} 
-
-img:hover{
-    filter: invert();
-    transform: rotate(360deg);
-    
-}
-
-header {  border: black 1px solid ;}
-
-h1 { color: crimson;
-  
-  
-}
-
-body {
-    padding: 32px;
-}
-h2, h3, h4, h5, h6 { color: rgba(197, 21, 21, 0.747);}
-
-[href="#top"] {
-    background-color: crimson;
-    color: #ffffff;
-    text-transform: lowercase;
-    border-radius: 20px;
-    position: fixed;
-    display: block;
-    bottom: 12px;
-    right: 12px;
-    padding: 5px 10px;
-    border: 2px solid #fff;
-    text-decoration: none;
-    transition: all 0.8s ease-in-out;
-}
- 
-[href="#top"]:hover {
-    background-color: #fff;
-    border-color: crimson;
-    color: crimson;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
   }
     
-
-
-section {
-    border: 1px solid gray;
-    padding: 16px;
-}
-
-
-
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+  
+  img {
+      border-radius: 0px;
+      transition:all 0.8s ease-in-out;
+  } 
+  
+  img:hover{
+      filter: invert();
+      transform: rotate(360deg);
+      
   }
+  
+  header {  border: black 1px solid ;}
+  
+  h1 { color: crimson;
+    
+    
+  }
+  
+  body {
+      padding: 0px;
+  }
+  h2, h3, h4, h5, h6 { color: rgba(197, 21, 21, 0.747);}
+  
+  [href="#top"] {
+      background-color: crimson;
+      color: #ffffff;
+      text-transform: lowercase;
+      border-radius: 20px;
+      position: fixed;
+      display: block;
+      bottom: 12px;
+      right: 12px;
+      padding: 5px 10px;
+      border: 2px solid #fff;
+      text-decoration: none;
+      transition: all 0.8s ease-in-out;
+  }
+   
+  [href="#top"]:hover {
+      background-color: #fff;
+      border-color: crimson;
+      color: crimson;
+    }
+      
+  
+  
+  section {
+      border: 1px solid gray;
+      padding: 16px;
+  }
+  
+  
+  
+  footer { color: white;}
